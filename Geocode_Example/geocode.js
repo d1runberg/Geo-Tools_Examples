@@ -1,6 +1,8 @@
 var gtools = require('geo-tools');
 
-geocode('9685 SW 163rd AVE, Beaverton, OR', function(coords){
+var address = '9685 SW 163rd AVE, Beaverton, OR';
+
+geocode(address, function(coords){
    console.log("===Raw response===");
    console.log(coords);
    console.log('');
